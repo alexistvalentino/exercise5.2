@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Registration</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="logo" class="container">
+	<h1><a href="#">FORM EXERCISE</a></h1>
+</div>
+
+<div id="page" class="container">
+	<div id="box1">
+		<h2 class="title"><a href="#">Member Registration Form</a></h2>
+		<div style="clear: both;">&nbsp;</div>
+		<div class="entry">
+			<p><strong>Fill out the registration form on the side with the correct data. All the fields that exist in this form must be filled</strong></p>
+			
+		</div>
+	</div>
+    
+	<div id="box2">
+   <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+   		<form id="formkontak" method="POST" action="">
+			   <table cellspacing="20">
+					<tr>
+						<td>Fullname</td>
+						<td>:</td>
+						<td><input type="text" id="fullname" name="fullname" placeholder="Please insert Fullname" value="" required autocomplete=""></td>
+					</tr>
+					<tr>
+						<td>Username*</td>
+						<td>:</td>
+						<td><input type="text" id="username" name="username" placeholder="Please insert Username" value=""></td>
+					</tr>
+					<tr>
+						<td>Password*</td>
+						<td>:</td>
+						<td><input type="password" id="userpassword" name="userpassword" placeholder="Password" value=""></td>
+					</tr>
+					<tr>
+						<td>Email*</td>
+						<td>:</td>
+						<td><input type="email"  id="useremail" name="useremail" placeholder="Please insert Email Address" value="" required></td>
+					</tr>
+					<tr>
+						<td>Gender</td>
+						<td>:</td>
+						<td><input type="radio" id="gendermale" name="gender" value="male" checked>
+							&nbsp;Male
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							<input type="radio" id="genderfemale" name="gender" value="female">
+                            &nbsp;Female
+						</td>
+					</tr>
+					<tr>
+						<td>Birth Date</td>
+						<td>:</td>
+						<td>
+							<select id="day" name="day">
+                            <option value="">--Day--</option>
+                            <option value="01">1</option>
+							<option value="02">2</option>
+							<option value="03">3</option>
+							<option value="04">4</option>
+							<option value="05">5</option>
+							<option value="06">6</option>
+							<option value="07">7</option>
+							<option value="08">8</option>
+							<option value="09">9</option>
+							<option value="10">10</option>
+							<option value="11">11</option>
+							<option value="12">12</option>
+							<option value="13">13</option>
+							<option value="14">14</option>
+							<option value="15">15</option>
+							<option value="16">16</option>
+							<option value="17">17</option>
+							<option value="18">18</option>
+							<option value="19">19</option>
+							<option value="20">20</option>
+							<option value="21">21</option>
+							<option value="22">22</option>
+							<option value="23">23</option>
+							<option value="24">24</option>
+							<option value="25">25</option>
+							<option value="26">26</option>
+							<option value="27">27</option>
+							<option value="28">28</option>
+							<option value="29">29</option>
+							<option value="30">30</option>
+							<option value="31">31</option>							
+                          </select> 
+                          &nbsp;&nbsp;
+
+                          <select id="month" name="month">
+                            <option value="">--Month--</option>
+                            <option value="01">January</option>
+							<option value="02">February</option>
+							<option value="03">March</option>
+							<option value="04">April</option>
+							<option value="05">May</option>
+							<option value="06">June</option>
+							<option value="07">July</option>
+							<option value="08">August</option>
+							<option value="09">September</option>
+							<option value="10">October</option>
+							<option value="11">November</option>
+							<option value="12">December</option>
+                          </select>
+                          &nbsp;&nbsp;
+
+                          <select id="year" name="year">
+                            <option value="">--Year--</option>                            
+							<option value="2021">2021</option>
+							<option value="2020">2020</option>
+							<option value="2019">2019</option>
+							<option value="2018">2018</option>
+							<option value="2017">2017</option>
+							<option value="2016">2016</option>
+							<option value="2015">2015</option>
+							<option value="2014">2014</option>
+							<option value="2013">2013</option>
+							<option value="2012">2012</option>
+							<option value="2011">2011</option>
+							<option value="2010">2010</option>
+							<option value="2009">2009</option>
+							<option value="2008">2008</option>
+							<option value="2007">2007</option>
+							<option value="2006">2006</option>
+							<option value="2005">2005</option>
+							<option value="2004">2004</option>
+							<option value="2003">2003</option>
+							<option value="2002">2002</option>
+							<option value="2001">2001</option>
+							<option value="2000">2000</option>
+							<option value="1999">1999</option>
+							<option value="1998">1998</option>
+							<option value="1997">1997</option>
+							<option value="1996">1996</option>
+							<option value="1995">1995</option>
+							<option value="1994">1994</option>
+							<option value="1993">1993</option>
+							<option value="1992">1992</option>
+							<option value="1991">1991</option>
+							<option value="1990">1990</option>
+							<option value="1989">1989</option>
+							<option value="1988">1988</option>
+							<option value="1987">1987</option>
+							<option value="1986">1986</option>
+							<option value="1985">1985</option>
+							<option value="1984">1984</option>
+							<option value="1983">1983</option>
+							<option value="1982">1982</option>
+							<option value="1981">1981</option>
+							<option value="1980">1980</option>
+                          </select>	
+						</td>
+					</tr>
+					<tr>
+						<td>Hoby</td>
+						<td>:</td>
+						<td>
+							<input type="checkbox" id="sports" name="sports" value="sports">&nbsp;Sports
+                            &nbsp;&nbsp;
+                            <input type="checkbox" id="travel" name="travel" value="travel">&nbsp;Travel
+                            &nbsp;&nbsp;
+                            <input type="checkbox" id="culture" name="culture" value="culture">&nbsp;Culture
+                            <br>
+                            <input type="checkbox" id="cullinary" name="cullinary" value="cullinary">&nbsp;Cullinary
+                            &nbsp;&nbsp;
+                            <input type="checkbox" id="shopping" name="shopping" value="shopping">&nbsp;Shopping
+                            &nbsp;&nbsp;
+                            <input type="checkbox" id="playing" name="playing" value="playing">&nbsp;Playing
+						</td>
+					</tr>
+					<tr>
+						<td valign=top>Address</td>
+						<td valign=top>:</td>
+						<td><textarea id="address" name="address" placeholder="address"></textarea></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td></td>
+						<td>
+						  <input type="submit" id="submit" name="submit" value="Submit">
+						  &nbsp;&nbsp;
+						  <input type="reset" id="reset" name="reset" value="Reset"> 
+						</td>
+					  </tr>
+			   </table>
+		</form>
+	</div>
+    
+    
+    
+</div>
+<div id="footer" class="container">
+	<p>Copyright (c) 2021 Alex Valentino </p>
+</div>
+</body>
+</html>
